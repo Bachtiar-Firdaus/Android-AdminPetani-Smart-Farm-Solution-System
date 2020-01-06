@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!--
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:alpha="0.2"
+                    android:background="@color/white">
+
+                </RelativeLayout>-->
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingTop="10dp"
+                            android:gravity="center"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Pendaftaran Admin"
+                                android:textAlignment="center"
+                                android:textSize="30dp"
+                                android:layout_marginBottom="40dp"
+                                android:textStyle="bold"/>
+
+
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:background="#F5F5F5"
+                                android:drawablePadding="16dp"
+                                android:drawableTint="#333333"
+                                android:hint="Nik "
+                                android:id="@+id/et_nik"
+                                android:padding="10dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="#c6c6c6" />
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:background="#F5F5F5"
+                                android:drawablePadding="16dp"
+                                android:drawableTint="#333333"
+                                android:hint="Nama Lengkap"
+                                android:padding="10dp"
+                                android:id="@+id/et_nama"
+                                android:inputType="textPassword"
+                                android:textColor="@color/black"
+                                android:textColorHint="#c6c6c6" />
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:background="#F5F5F5"
+                                android:drawablePadding="16dp"
+                                android:drawableTint="#333333"
+                                android:hint="Alamat"
+                                android:padding="10dp"
+                                android:id="@+id/et_alamat"
+                                android:textColor="@color/black"
+                                android:textColorHint="#c6c6c6" />
+
+
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:background="#F5F5F5"
+                                android:drawablePadding="16dp"
+                                android:drawableTint="#333333"
+                                android:hint="No hp "
+                                android:id="@+id/et_nohp"
+                                android:padding="10dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="#c6c6c6" />
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:background="#F5F5F5"
+                                android:drawablePadding="16dp"
+                                android:drawableTint="#333333"
+                                android:hint="Email"
+                                android:padding="10dp"
+                                android:id="@+id/et_email"
+                                android:textColor="@color/black"
+                                android:textColorHint="#c6c6c6" />
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:background="#F5F5F5"
+                                android:drawablePadding="16dp"
+                                android:drawableTint="#333333"
+                                android:hint="Password"
+                                android:padding="10dp"
+                                android:id="@+id/et_password"
+                                android:inputType="textPassword"
+                                android:textColor="@color/black"
+                                android:textColorHint="#c6c6c6" />
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:layout_marginTop="35dp"
+                                android:id="@+id/klikdaftar"
+                                android:onClick="klikdaftar"
+                                android:text="daftar"
+                                android:alpha="0.9"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"
+                                android:background="#FF9800"/>
+
+                        </LinearLayout>
+
+
+
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

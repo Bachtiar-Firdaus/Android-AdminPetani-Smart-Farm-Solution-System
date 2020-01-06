@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!-- suppress ALL -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="dev.edmt.aplikasipetanifix">
 
@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".admin.login.Login"
-            android:label="SFSS ADMIN"
+            android:name=".admin.admin_LoginActivity"
+            android:label="Admin"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,18 +19,48 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".admin.inv_v_verifikasi" /><!--
+        <activity android:name=".admin.inv_m_verifikasi" />
+        <activity android:name=".admin.inv_a_verifikasi" />-->
+        <activity android:name=".admin.pet_v_verifikasi" /><!--
+        <activity android:name=".admin.pet_m_verifikasi" />
+        <activity android:name=".admin.pet_a_verifikasi" />-->
+        <activity android:name=".admin.admin_RegisterActivity" />
+        <activity android:name=".admin.admin_buatakunadd" />
+        <activity android:name=".admin.lap_admin_c_investor" />
+        <activity android:name=".admin.lap_admin_investor" />
+        <activity android:name=".admin.lap_admin_investor_singgle" />
+        <activity android:name=".admin.admin_slot" />
+        <activity android:name=".admin.asCreate_saldo_Investor" />
+        <activity android:name=".admin.asadmin_tambahsaldoinvesator" />
+        <activity android:name=".admin.ha_admin_c_Investor" />
+        <activity android:name=".admin.ha_admin_c_Petani" />
+        <activity android:name=".admin.ha_admin_invesator" />
+        <activity android:name=".admin.ha_admin_Investor_singgle" />
+        <activity android:name=".admin.ha_admin_petani" />
+        <activity android:name=".admin.ha_admin_Petani_singgle" />
+        <activity android:name=".admin.asRead_saldo_Investor_singgle" />
+        <activity android:name=".admin.asCreate_saldo_Petani" />
+        <activity android:name=".admin.asadmin_tambahsaldopetani" />
+        <activity android:name=".admin.asRead_saldo_Petani_singgle" />
+        <activity android:name=".admin.bs_admin_tambahsaldoinvesator" />
+        <activity android:name=".admin.bs_admin_tambahsaldopetani" />
+        <activity android:name=".admin.bs_Create_saldo_Investor" />
+        <activity android:name=".admin.bs_Create_saldo_Petani" />
+        <activity android:name=".admin.bs_Read_saldo_Investor_singgle" />
+        <activity android:name=".admin.bs_Read_saldo_Petani_singgle" />
+        <activity android:name=".admin.admin_buatakunpetani" />
+        <activity android:name=".admin.admin_read_petani_singgle" />
         <activity android:name=".admin.admin_MainActivity" />
         <activity android:name=".admin.admin_hapusakun" />
-        <activity android:name=".admin.admin_buatakunpetani" />
         <activity android:name=".admin.admin_tambahkordinatlahan" />
         <activity android:name=".admin.admin_tambahsaldo" />
-        <activity android:name=".admin.admin_verifikasi" />
-        <activity android:name=".admin.admin_slot" />
         <activity android:name=".admin.admin_laporan" />
-        <activity android:name=".admin.admin_tambahsaldoinvesator" />
-        <activity android:name=".admin.admin_tambahsaldopetani" />
-        <activity android:name=".admin.admin_buatakunadd"></activity>
+        <activity android:name=".admin.nav_profile" />
+        <activity android:name=".admin.admin_verifikasi"/>
+        <activity android:name=".admin.lap_admin_c_pet" />
+        <activity android:name=".admin.lap_admin_pet" />
+        <activity android:name=".admin.lap_admin_pet_singgle"/>
     </application>
 
 </manifest>

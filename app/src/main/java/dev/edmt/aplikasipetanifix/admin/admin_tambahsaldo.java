@@ -49,7 +49,7 @@ public class admin_tambahsaldo extends AppCompatActivity implements NavigationVi
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_tentang) {
+        if (id == R.id.nav_profile) {
             // Handle the camera action
         } else if (id == R.id.nav_logout) {
 
@@ -62,14 +62,14 @@ public class admin_tambahsaldo extends AppCompatActivity implements NavigationVi
 
     public void btn_investorsaldo(View view) {
 
-        Intent intent = new Intent(admin_tambahsaldo.this, admin_tambahsaldoinvesator.class);
+        Intent intent = new Intent(admin_tambahsaldo.this, asadmin_tambahsaldoinvesator.class);
         startActivity(intent);
 
     }
 
     public void btn_petanisaldo(View view) {
 
-        Intent intent = new Intent(admin_tambahsaldo.this, admin_tambahsaldopetani.class);
+        Intent intent = new Intent(admin_tambahsaldo.this, asadmin_tambahsaldopetani.class);
         startActivity(intent);
 
     }

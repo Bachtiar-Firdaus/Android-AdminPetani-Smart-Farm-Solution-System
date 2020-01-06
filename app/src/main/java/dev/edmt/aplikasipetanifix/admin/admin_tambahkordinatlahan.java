@@ -18,7 +18,7 @@ public class admin_tambahkordinatlahan extends AppCompatActivity implements Navi
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.admin_activity_tambahkordinatlahan);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+ /*       Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -28,7 +28,7 @@ public class admin_tambahkordinatlahan extends AppCompatActivity implements Navi
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
+        navigationView.setNavigationItemSelectedListener(this);*/
 
     }
 
@@ -47,7 +47,7 @@ public class admin_tambahkordinatlahan extends AppCompatActivity implements Navi
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_tentang) {
+        if (id == R.id.nav_profile) {
             // Handle the camera action
         } else if (id == R.id.nav_logout) {
 
